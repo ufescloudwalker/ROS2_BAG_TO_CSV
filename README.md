@@ -102,21 +102,6 @@ Exemplo:
 
 ---
 
-## 📌 Boas Práticas
-
-- Mantenha o diretório `processed/` organizado para evitar processamento duplicado.
-- Sempre confirme a integridade dos arquivos CSV e imagens antes de remover os bags originais.
-- Use `.gitignore` para evitar que imagens e arquivos grandes sejam versionados:
-  ```gitignore
-  # Ignorar todas as imagens PNG
-  *.png
-  
-  # Ignorar a pasta processed/
-  processed/
-  ```
-
----
-
 ## 📜 Licença
 
 Este projeto está licenciado sob a [Apache 2.0 License](LICENSE).
